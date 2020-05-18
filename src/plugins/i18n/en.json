@@ -1,0 +1,25 @@
+{
+    "navbar": {
+      "brand": "Test App"
+    },
+    "home": {
+      "home-page": "Home Page",
+      "go-to-search": "Go To Search"
+    },
+    "errors": {
+      "error": "Error",
+      "page-not-found": "Page not found"
+    },
+    "components": {
+        "navbar": {
+            "home": "Home",
+            "search": "Search"
+        }
+    },
+    "views": {
+        "search": {
+            "title": "Search Page"
+        }
+    }
+  }
+  

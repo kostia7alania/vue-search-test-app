@@ -1,19 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NavBar/>
+    <div>
+      <transition name="fade" mode="out-in" appear>
+        <router-view/>
+      </transition>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { mapState } from "vuex";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    NavBar: () => import("@/components/Navbar")
+  },
+  created() {
+    this.initLocale();
+  },
+  computed: {
+    ...mapState(['locale'])
+  },
+  methods: {
+    initLocale () {
+      this.$i18n.locale = this.locale.code
+    }
   }
-}
+};
 </script>
 
 <style>
@@ -23,6 +38,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
 }
 </style>

@@ -1,0 +1,25 @@
+{
+    "navbar": {
+      "brand": "Тест Апп"
+    },
+    "home": {
+      "home-page": "Главная страница",
+      "go-to-search": "Перейти в поиск"
+    },
+    "errors": {
+      "error": "Ошибка",
+      "page-not-found": "Страница не найдена!"
+    },
+    "components": {
+        "navbar": {
+            "home": "Главная",
+            "search": "Поиск"
+        }
+    },
+    "views": {
+        "search": {
+            "title": "Поиск"
+        }
+    }
+  }
+  
