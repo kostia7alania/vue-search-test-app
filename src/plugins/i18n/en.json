@@ -1,25 +1,52 @@
 {
+  "navbar": {
+    "brand": "Test App"
+  },
+  "home": {
+    "home-page": "Home Page",
+    "go-to-search": "Go To Search"
+  },
+  "errors": {
+    "error": "Error",
+    "page-not-found": "Page not found"
+  },
+  "components": {
     "navbar": {
-      "brand": "Test App"
+      "home": "Home",
+      "search": "Search"
     },
-    "home": {
-      "home-page": "Home Page",
-      "go-to-search": "Go To Search"
-    },
-    "errors": {
-      "error": "Error",
-      "page-not-found": "Page not found"
-    },
-    "components": {
-        "navbar": {
-            "home": "Home",
-            "search": "Search"
-        }
-    },
-    "views": {
-        "search": {
-            "title": "Search Page"
-        }
+    "search": {
+      "cities": {
+        "msk": "Moscow",
+        "mo": "Moscow region"
+      },
+      "actions": {
+        "buy": "Buy",
+        "sell": "Sell"
+      },
+      "places": {
+        "office": "Office",
+        "home": "Home"
+      },
+      "place-types": {
+        "year": "RUB/year",
+        "month": "RUB/ month"
+      },
+      "add-price": "Add price",
+      "add-length": "Add length",
+      "from": "From",
+      "to": "To",
+      "main-search": "Main search",
+      "search-by-name": "Search by name",
+      "length": "Length",
+      "price": "Price",
+      "search": "Search",
+      "search-placeholder": "Enter the name of the object (business center, shopping center, new buildings, logopark)"
+    }
+  },
+  "views": {
+    "search": {
+      "title": "Search Page"
     }
   }
-  
+}

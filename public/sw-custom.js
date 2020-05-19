@@ -1,6 +1,6 @@
-var cacheName = 'cache-v1'
+const cacheName = 'cache-v1'
 
-var resourcesToPrecache = [
+const resourcesToPrecache = [
     './',
     './index.html'
 ]

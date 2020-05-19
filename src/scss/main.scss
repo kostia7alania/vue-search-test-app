@@ -1,0 +1,76 @@
+/*
+* Fonts
+*/
+@font-face {
+    font-family: "Myriad Pro";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Myriad Pro Regular"), local("MyriadPro-Regular"),
+        url("/assets/fonts/MyriadPro-Regular.woff2") format("woff2"),
+        url("/assets/fonts/MyriadPro-Regular.woff") format("woff"),
+        url("/assets/fonts/MyriadPro-Regular.ttf") format("ttf"),
+        url("/assets/fonts/MyriadPro-Regular.eot?#iefix") format("eot");
+}
+
+/*
+* Transition animations
+*/
+.slide {
+    &-enter-active {
+        transition-duration: 1s;
+        transition-timing-function: linear;
+    }
+
+    &-leave-active {
+        transition-duration: 0.3s;
+    }
+
+    &-enter-to,
+    &-leave {
+        max-height: 100px;
+        overflow: hidden;
+    }
+
+    &-enter,
+    &-leave-to {
+        max-height: 0;
+        overflow: hidden;
+    }
+}
+
+.fade {
+    &-enter-active,
+    &-leave-active {
+        transition: opacity 0.3s;
+    }
+
+    &-enter,
+    &-leave-active {
+        opacity: 0;
+    }
+}
+
+/* 
+* Scroll
+*/
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(194, 194, 194);
+    width: 10px;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(145, 145, 145);
+}
+body {
+    scrollbar-color: rgb(194, 194, 194) #fff;
+    scrollbar-width: 5px;
+}
+body {
+    scrollbar-base-color: #fff;
+    scrollbar-face-color: rgb(194, 194, 194);
+    scrollbar-highlight-color: rgb(145, 145, 145);
+}

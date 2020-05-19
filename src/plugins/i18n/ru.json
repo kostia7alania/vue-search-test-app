@@ -1,25 +1,52 @@
 {
+  "navbar": {
+    "brand": "Тест Апп"
+  },
+  "home": {
+    "home-page": "Главная страница",
+    "go-to-search": "Перейти в поиск"
+  },
+  "errors": {
+    "error": "Ошибка",
+    "page-not-found": "Страница не найдена!"
+  },
+  "components": {
     "navbar": {
-      "brand": "Тест Апп"
+      "home": "Главная",
+      "search": "Поиск"
     },
-    "home": {
-      "home-page": "Главная страница",
-      "go-to-search": "Перейти в поиск"
-    },
-    "errors": {
-      "error": "Ошибка",
-      "page-not-found": "Страница не найдена!"
-    },
-    "components": {
-        "navbar": {
-            "home": "Главная",
-            "search": "Поиск"
-        }
-    },
-    "views": {
-        "search": {
-            "title": "Поиск"
-        }
+    "search": {
+      "cities": {
+        "msk": "Москва",
+        "mo": "Московская область"
+      },
+      "actions": {
+        "buy": "Купить",
+        "sell": "Продать"
+      },
+      "places": {
+        "office": "Офис",
+        "home": "Дом"
+      },
+      "place-types": {
+        "year": "Р/год",
+        "month": "Р/месяц"
+      },
+      "add-price": "Добавить цену",
+      "add-length": "Добавить метраж",
+      "from": "От",
+      "to": "До",
+      "main-search": "Основной поиск",
+      "search-by-name": "Искать по названию",
+      "length": "Метраж",
+      "price": "Цена",
+      "search": "Найти",
+      "search-placeholder": "Введите название объекта (бизнес-центра, торгового центра, новостройки, логопарка)"
+    }
+  },
+  "views": {
+    "search": {
+      "title": "Поиск"
     }
   }
-  
+}
