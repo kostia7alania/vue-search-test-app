@@ -2,6 +2,13 @@
 
 ## <a href="https://cumbersome-hydrant.surge.sh" target="_blank" rel="noopener"><span>Demo</span></a>
 
+## Features
+- Offline-first (Service Worker)
+- Mobile-first (SCSS)
+- PWA
+- Multilingual  (I18n)
+- Store (Vuex)
+- Router (Vue-Router)
 
 ## Project setup
 ```
